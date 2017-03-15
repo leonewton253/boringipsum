@@ -18,10 +18,10 @@ h1, h2 {
 h2.intro {
   font-family: cursive;
 }
-p.intro {
+div.intro {
   font-style: italic;
 }
 
-img.intro{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
+.fade{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
 @-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
